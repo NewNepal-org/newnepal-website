@@ -2,7 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
-import registryData from '../../data/registry.json';
+import registryData from '../../data/genz-registry.json';
+import { GENZ_REGISTRY_SHEET_WEB_URL } from '../constants';
 
 export default function GenZRegistry() {
   return (
@@ -13,23 +14,28 @@ export default function GenZRegistry() {
             <h1><Translate>GenZ Registry</Translate></h1>
             <p><Translate>Discover GenZ teams and groups working towards positive change in Nepal.</Translate></p>
             
+            <div className="alert alert--info margin-bottom--lg">
+              <p><strong><Translate>Source of Truth:</Translate></strong> <a href={GENZ_REGISTRY_SHEET_WEB_URL} target="_blank" rel="noopener noreferrer"><Translate>Google Sheets</Translate></a>. <Translate>If your group isn't included or your info needs update, please</Translate> <Link to="/contact"><Translate>contact us</Translate></Link>.</p>
+            </div>
+            
             <div className="margin-vert--lg">
               <h2><Translate>GenZ Teams</Translate></h2>
-              {registryData.teams.map(team => (
-                <div key={team.id} className="card margin-bottom--md">
+              {registryData.teams.map((team, index) => (
+                <div key={index} className="card margin-bottom--md">
                   <div className="card__body" style={{lineHeight: '1.2'}}>
-                    <h3 style={{marginBottom: '0.5rem'}}>{team.name}</h3>
-                    <p style={{marginBottom: '0.3rem'}}>{team.description}</p>
-                    <p style={{marginBottom: '0.3rem'}}><strong><Translate>Focus:</Translate></strong> {team.focus}</p>
-                    <p style={{marginBottom: '0.3rem'}}><strong><Translate>Location:</Translate></strong> {team.location}</p>
-                    <p style={{marginBottom: '0.3rem'}}><strong><Translate>Last Updated:</Translate></strong> {team.lastUpdated}</p>
-                    {team.links && (
+                    <h3 style={{marginBottom: '0.5rem'}}>{team.Name?.[0] || 'Unknown'}</h3>
+                    {team.Description && <p style={{marginBottom: '0.3rem'}}>{team.Description}</p>}
+                    {team.Focus && <p style={{marginBottom: '0.3rem'}}><strong><Translate>Focus:</Translate></strong> {team.Focus}</p>}
+                    {team['Last Updated'] && <p style={{marginBottom: '0.3rem'}}><strong><Translate>Last Updated:</Translate></strong> {team['Last Updated']}</p>}
+                    {(team.Social || team.Contact) && (
                       <div>
-                        <strong><Translate>Links:</Translate> &nbsp;</strong> 
-                        {Object.entries(team.links).map(([key, value], index) => (
-                          <span key={key}>
-                            {index > 0 && ' | '}
-                            <a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
+                        <strong><Translate>Links:</Translate> &nbsp;</strong>
+                        {[...(team.Social || []), ...(team.Contact || [])].map((link, i) => (
+                          <span key={i}>
+                            {i > 0 && ' | '}
+                            <a href={link.startsWith('http') ? link : `mailto:${link}`} target="_blank" rel="noopener noreferrer">
+                              {link.includes('@') ? 'Email' : link.includes('facebook') ? 'Facebook' : link.includes('instagram') ? 'Instagram' : 'Website'}
+                            </a>
                           </span>
                         ))}
                       </div>
@@ -39,9 +45,7 @@ export default function GenZRegistry() {
               ))}
             </div>
             
-            <div className="margin-vert--lg">
-              <p><Translate>If your GenZ group isn't included, please</Translate> <Link to="/contact"><Translate>contact us</Translate></Link>.</p>
-            </div>
+
           </div>
         </div>
       </div>
