@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#grad3)" opacity="0.1"/>
+  
+  <!-- Speech bubbles -->
+  <g fill="url(#grad3)">
+    <!-- Left speech bubble -->
+    <ellipse cx="70" cy="80" rx="25" ry="18"/>
+    <polygon points="70,98 60,110 80,105"/>
+    
+    <!-- Right speech bubble -->
+    <ellipse cx="130" cy="120" rx="25" ry="18"/>
+    <polygon points="130,138 140,150 120,145"/>
+  </g>
+  
+  <!-- Discussion points/text lines -->
+  <g stroke="white" stroke-width="2" fill="none">
+    <line x1="60" y1="75" x2="80" y2="75"/>
+    <line x1="60" y1="82" x2="75" y2="82"/>
+    <line x1="120" y1="115" x2="140" y2="115"/>
+    <line x1="120" y1="122" x2="135" y2="122"/>
+  </g>
+  
+  <!-- Microphone -->
+  <rect x="95" y="140" width="10" height="20" fill="url(#grad3)" rx="5"/>
+  <rect x="90" y="160" width="20" height="8" fill="url(#grad3)" rx="4"/>
+  <line x1="100" y1="168" x2="100" y2="180" stroke="url(#grad3)" stroke-width="3"/>
+  
+  <!-- Calendar/Schedule indicator -->
+  <rect x="40" y="40" width="30" height="25" fill="none" stroke="url(#grad3)" stroke-width="2" rx="3"/>
+  <line x1="45" y1="35" x2="45" y2="45" stroke="url(#grad3)" stroke-width="2"/>
+  <line x1="65" y1="35" x2="65" y2="45" stroke="url(#grad3)" stroke-width="2"/>
+  <circle cx="50" cy="55" r="2" fill="url(#grad3)"/>
+  <circle cx="60" cy="55" r="2" fill="url(#grad3)"/>
+</svg>

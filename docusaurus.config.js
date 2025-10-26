@@ -33,9 +33,9 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'vision/',
-          activeBasePath: 'vision',
-          label: 'Vision',
+          to: 'mission/',
+          activeBasePath: 'mission',
+          label: 'Mission',
           position: 'left',
         },
         {
@@ -106,8 +106,8 @@ module.exports = {
               to: 'about',
             },
             {
-              label: 'Vision',
-              to: 'vision',
+              label: 'Mission',
+              to: 'mission',
             },
           ],
         },
@@ -133,6 +133,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'GTM-TVQX7Q9M',
+          anonymizeIP: true,
         },
       },
     ],

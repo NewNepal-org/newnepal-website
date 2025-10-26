@@ -1,12 +1,10 @@
 ---
-title: Vision
+title: Mission
 ---
 
-# NewNepal.org Vision
+# NewNepal.org Mission
 
 **A Digital Platform for Nepali Youth, by Nepali Youth.**
-
-## Mission
 
 To create a platform that:
 
@@ -14,9 +12,9 @@ To create a platform that:
 - Provides a safe space for all Nepali youth identities to unite and participate in critical dialogue pertaining to Nepal's future
 - Promotes youth agenda, political participation, awareness, and civil discourse
 
-## Membership
+## Participation
 
-Only people of Nepali origin can participate as members. Diaspora welcome.
+Only people of Nepali origin can participate in program events. Diaspora welcome.
 
 ## Funding
 

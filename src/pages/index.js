@@ -10,20 +10,20 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <Translate>GenZ Registry</Translate>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/genz-registry-icon.svg',
     description: <Translate>Discover GenZ teams and groups working towards positive change in Nepal.</Translate>,
     link: '/genz-registry'
   },
   {
     title: <Translate>Corruption Database</Translate>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/corruption-database-icon.svg',
     description: <Translate>Track and report corruption cases to promote transparency and accountability.</Translate>,
     link: '/corruption',
     underConstruction: true
   },
   {
     title: <Translate>Weekly Debates</Translate>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/weekly-debates-icon.svg',
     description: <Translate>Participate in weekly discussions on important national issues and policies.</Translate>,
     link: '/debate',
     underConstruction: true
@@ -61,18 +61,18 @@ export default function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           {showBanner && (
-            <div className="text--center margin-bottom--md" style={{backgroundColor: 'red', padding: '10px', borderRadius: '5px', position: 'relative'}}>
-              <p style={{margin: 0, color: 'white'}}><Translate>⭐️ Contributors Needed! We're looking for Web Developers, Designers, and Content Creators.</Translate> <Link to="/docs/contributors-needed" style={{color: 'white', textDecoration: 'underline'}}><Translate>Learn More</Translate></Link></p>
+            <div className={clsx("text--center margin-bottom--md", styles.banner)}>
+              <p className={styles.bannerText}><Translate>⭐️ Contributors Needed! We're looking for Web Developers, Designers, and Content Creators.</Translate> <Link to="/docs/contributors-needed" className={styles.bannerLink}><Translate>Learn More</Translate></Link></p>
               <button 
                 onClick={() => setShowBanner(false)}
-                style={{position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', color: 'white', fontSize: '18px', cursor: 'pointer'}}
+                className={styles.bannerCloseButton}
               >
                 ×
               </button>
             </div>
           )}
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{translate({message: siteConfig.tagline})}</p>
+          <p className="hero__subtitle">{translate({message: 'A Digital Platform for Nepali Youth, by Nepali Youth'})}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(

@@ -16,6 +16,6 @@ We are looking for passionate individuals to join our mission of empowering Nepa
 
 All content on this website will remain in the **public domain** and is meant to drive the interests of Nepalese GenZ and the Youth.
 
-To learn more about our organization, visit our [about page](/about). You can also read about our mission and goals on our [vision page](/vision).
+To learn more about our organization, visit our [about page](/about). You can also read about our mission and goals on our [mission page](/mission).
 
 Ready to contribute? Check out our contribution guidelines and get started!

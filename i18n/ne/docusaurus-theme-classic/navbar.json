@@ -11,9 +11,9 @@
     "message": "योगदान",
     "description": "Navbar item with label Contribute"
   },
-  "item.label.Vision": {
-    "message": "दृष्टिकोण",
-    "description": "Navbar item with label Vision"
+  "item.label.Mission": {
+    "message": "मिशन",
+    "description": "Navbar item with label Mission"
   },
   "item.label.About": {
     "message": "बारेमा",
