@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "ब्लग",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "ब्लग",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "हालका पोस्टहरू",
+    "description": "The label for the left sidebar"
+  }
+}

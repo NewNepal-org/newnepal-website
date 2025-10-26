@@ -1,32 +1,52 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://docusaurus-569d58.gitlab.io/', // Replace it with your deployed Pages URL
+  title: 'NewNepal.org',
+  tagline: 'A Digital Platform for Nepali Youth, by Nepali Youth',
+  url: 'https://newnepal.org/', // Replace it with your deployed Pages URL
   baseUrl: '/', // When the unique domain is disabled, replace it with your project’s name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'GitLab', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/favicon.png',
+  organizationName: 'NewNepal', // Usually your GitHub org/user name.
+  projectName: 'NewNepal.org', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ne'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+      },
+    },
+  },
   themeConfig: {
     navbar: {
-      title: 'Docusaurus on GitLab Pages',
+      title: 'NewNepal.org',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'NewNepal.org Logo',
+        src: 'img/Logo1.png',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Contribute',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://gitlab.com/pages/docusaurus',
-          label: 'GitLab',
+          to: 'vision/',
+          activeBasePath: 'vision',
+          label: 'Vision',
+          position: 'left',
+        },
+        {
+          to: 'about/',
+          activeBasePath: 'about',
+          label: 'About',
+          position: 'left',
+        },
+        {to: 'blog', label: 'Updates', position: 'left'},
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -35,28 +55,38 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Contribute',
           items: [
             {
-              label: 'Getting Started',
+              label: 'Guidelines and Documentation',
               to: 'docs/',
+            },
+            {
+              href: 'https://gitlab.com/newnepal/newnepal.org',
+              label: 'GitLab',
+              position: 'right',
+            },
+            {
+              href: 'https://discord.gg/mRYbcEAuaQ',
+              label: 'Discord',
+              position: 'right',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Projects',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'GenZ Registry',
+              to: 'genz-registry',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Weekly Debates',
+              to: 'debate',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Corruption Database',
+              to: 'corruption',
             },
           ],
         },
@@ -68,13 +98,21 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Contact',
+              to: 'contact',
+            },
+            {
+              label: 'About',
+              to: 'about',
+            },
+            {
+              label: 'Vision',
+              to: 'vision',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} NewNepal.org. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,13 +123,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://gitlab.com/newnepal/newnepal.org/-/blob/mainline/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://gitlab.com/newnepal/newnepal.org/-/blob/mainline/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -99,4 +137,5 @@ module.exports = {
       },
     ],
   ],
+
 };

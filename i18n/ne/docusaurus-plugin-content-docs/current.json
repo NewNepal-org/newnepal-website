@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "अर्को",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.link.Docusaurus Guide": {
+    "message": "Docusaurus गाइड",
+    "description": "The label for link Docusaurus Guide in sidebar docs, linking to https://docusaurus.io/docs/category/guides"
+  },
+  "sidebar.docs.link.Discord": {
+    "message": "Discord",
+    "description": "The label for link Discord in sidebar docs, linking to https://discord.gg/mRYbcEAuaQ"
+  },
+  "sidebar.docs.doc.Welcome": {
+    "message": "स्वागत",
+    "description": "The label for the doc item Welcome in sidebar docs, linking to the doc intro"
+  },
+  "sidebar.docs.doc.⭐️ Contributors Needed!": {
+    "message": "⭐️ योगदानकर्ताहरू चाहिए!",
+    "description": "The label for the doc item ⭐️ Contributors Needed! in sidebar docs, linking to the doc contributors-needed"
+  }
+}

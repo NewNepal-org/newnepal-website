@@ -1,0 +1,421 @@
+{
+  "Contact": {
+    "message": "सम्पर्क"
+  },
+  "Contact New Nepal": {
+    "message": "New Nepal सँग सम्पर्क गर्नुहोस्"
+  },
+  "Get in touch with us:": {
+    "message": "हामीसँग सम्पर्क गर्नुहोस्:"
+  },
+  "Email:": {
+    "message": "इमेल:"
+  },
+  "Discord:": {
+    "message": "Discord:"
+  },
+  "Join our Discord server": {
+    "message": "हाम्रो Discord सर्भरमा सामेल हुनुहोस्"
+  },
+  "Corruption Database": {
+    "message": "भ्रष्टाचार डाटाबेस"
+  },
+  "Corruption Database page": {
+    "message": "भ्रष्टाचार डाटाबेस पृष्ठ"
+  },
+  "🚧 Under Construction": {
+    "message": "🚧 निर्माणाधीन"
+  },
+  "This page is currently under development. We are building a comprehensive database to track corruption cases and promote transparency.": {
+    "message": "यो पृष्ठ हाल विकासाधीन छ। हामी भ्रष्टाचारका घटनाहरूलाई ट्र्याक गर्न र पारदर्शितालाई बढावा दिनका लागि एक व्यापक डाटाबेस निर्माण गरिरहेका छौं।"
+  },
+  "🤝 Contributors Needed": {
+    "message": "🤝 योगदानकर्ताहरू चाहिए"
+  },
+  "We're looking for contributors to help build this important resource.": {
+    "message": "हामी यो महत्वपूर्ण साधन निर्माण गर्न मद्दत गर्न योगदानकर्ताहरू खोजिरहेका छौं।"
+  },
+  "Learn how you can contribute": {
+    "message": "तपाईं कसरी योगदान गर्न सक्नुहुन्छ जान्नुहोस्"
+  },
+  "Weekly Debates": {
+    "message": "साप्ताहिक बहस"
+  },
+  "Weekly Debates page": {
+    "message": "साप्ताहिक बहस पृष्ठ"
+  },
+  "This page is currently under development. We are creating a platform for structured debates on important national issues.": {
+    "message": "यो पृष्ठ हाल विकासाधीन छ। हामी महत्वपूर्ण राष्ट्रिय मुद्दाहरूमा संरचित बहसका लागि एक मञ्च सिर्जना गरिरहेका छौं।"
+  },
+  "We're looking for contributors to help develop this debate platform.": {
+    "message": "हामी यो बहस मञ्च विकास गर्न मद्दत गर्न योगदानकर्ताहरू खोजिरहेका छौं।"
+  },
+  "GenZ Registry": {
+    "message": "GenZ दर्ता"
+  },
+  "GenZ Registry - Discover GenZ teams working for Nepal": {
+    "message": "GenZ दर्ता - नेपालका लागि काम गरिरहेका GenZ टोलीहरू पत्ता लगाउनुहोस्"
+  },
+  "Discover GenZ teams and groups working towards positive change in Nepal.": {
+    "message": "नेपालमा सकारात्मक परिवर्तनका लागि काम गरिरहेका GenZ टोलीहरू र समूहहरू पत्ता लगाउनुहोस्।"
+  },
+  "GenZ Teams": {
+    "message": "GenZ टोलीहरू"
+  },
+  "Focus:": {
+    "message": "फोकस:"
+  },
+  "Location:": {
+    "message": "स्थान:"
+  },
+  "Last Updated:": {
+    "message": "अन्तिम अपडेट:"
+  },
+  "Links:": {
+    "message": "लिङ्कहरू:"
+  },
+  "If your GenZ group isn't included, please": {
+    "message": "यदि तपाईंको GenZ समूह समावेश छैन भने, कृपया"
+  },
+  "contact us": {
+    "message": "हामीलाई सम्पर्क गर्नुहोस्"
+  },
+  "Track and report corruption cases to promote transparency and accountability.": {
+    "message": "पारदर्शिता र जवाफदेहितालाई बढावा दिन भ्रष्टाचारका घटनाहरूलाई ट्र्याक र रिपोर्ट गर्नुहोस्।"
+  },
+  "Participate in weekly discussions on important national issues and policies.": {
+    "message": "महत्वपूर्ण राष्ट्रिय मुद्दाहरू र नीतिहरूमा साप्ताहिक छलफलमा भाग लिनुहोस्।"
+  },
+  "Under Construction": {
+    "message": "निर्माणाधीन"
+  },
+  "Empowering Nepali Youth, By Nepali Youth": {
+    "message": "नेपाली युवाहरूद्वारा, नेपाली युवाहरूलाई सशक्तिकरण"
+  },
+  "Description will go into a meta tag in <head />": {
+    "message": "विवरण <head /> मा मेटा ट्यागमा जानेछ"
+  },
+  "⭐️ Contributors Needed! We're looking for Web Developers, Designers, and Content Creators.": {
+    "message": "⭐️ योगदानकर्ताहरू चाहिए! हामी वेब डेभलपरहरू, डिजाइनरहरू, र सामग्री सिर्जनाकर्ताहरू खोजिरहेका छौं।"
+  },
+  "Learn More": {
+    "message": "थप जान्नुहोस्"
+  },
+  "Get Started": {
+    "message": "सुरु गर्नुहोस्"
+  },
+  "A Digital Platform for Nepali Youth, by Nepali Youth": {
+    "message": "नेपाली युवाहरूद्वारा, नेपाली युवाहरूका लागि डिजिटल प्लेटफर्म"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "यो पृष्ठ क्र्यास भयो।",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "आर्काइभ",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "आर्काइभ",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "माथि फर्किनुहोस्",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ब्लग सूची पृष्ठ नेभिगेसन",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "नयाँ प्रविष्टिहरू",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "पुराना प्रविष्टिहरू",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ब्लग पोस्ट पृष्ठ नेभिगेसन",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "नयाँ पोस्ट",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "पुरानो पोस्ट",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "सबै ट्यागहरू हेर्नुहोस्",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "अँध्यारो र उज्यालो मोडबिच बदलिनुहोस् (हाल {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "अँध्यारो मोड",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "उज्यालो मोड",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "ब्रेडक्रम्ब्स",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "१ वस्तु|{count} वस्तुहरू",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "कागजात पृष्ठहरू",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "अघिल्लो",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "अर्को",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "एक कागजात ट्याग गरिएको|{count} कागजातहरू ट्याग गरिएका",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} \"{tagName}\" सँग",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "संस्करण: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "यो {siteTitle} {versionLabel} संस्करणका लागि अप्रकाशित कागजात हो।",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "यो {siteTitle} {versionLabel} का लागि कागजात हो, जुन अब सक्रिय रूपमा राखरखाव गरिँदैन।",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "अद्यावधिक कागजातका लागि, {latestVersionLink} ({versionLabel}) हेर्नुहोस्।",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "पछिल्लो संस्करण",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "यो पृष्ठ सम्पादन गर्नुहोस्",
+    "description": "The link label to edit the current page"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date} मा",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user} द्वारा",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "अन्तिम अपडेट{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} मा प्रत्यक्ष लिङ्क",
+    "description": "Title for link to heading"
+  },
+  "theme.NotFound.title": {
+    "message": "पृष्ठ फेला परेन",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "संस्करणहरू",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "ट्यागहरू:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "बन्द गर्नुहोस्",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "सावधानी",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "खतरा",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "जानकारी",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "नोट",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "सुझाव",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "चेतावनी",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "ब्लग हालका पोस्टहरू नेभिगेसन",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "कपी भयो",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "कोडलाई क्लिपबोर्डमा कपी गर्नुहोस्",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "कपी गर्नुहोस्",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "वर्ड र्याप टगल गर्नुहोस्",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "साइडबार केटेगोरी '{label}' फैलाउनुहोस्",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "साइडबार केटेगोरी '{label}' सङ्कुचित गर्नुहोस्",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "मुख्य",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "हामीले तपाईंले खोजिरहेको कुरा फेला पारेनौं।",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "कृपया तपाईंलाई मूल URL मा लिङ्क गर्ने साइटको मालिकलाई सम्पर्क गर्नुहोस् र तिनीहरूलाई तिनीहरूको लिङ्क बिग्रिएको जानकारी दिनुहोस्।",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "भाषाहरू",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "यस पृष्ठमा",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "थप पढ्नुहोस्",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} को बारेमा थप पढ्नुहोस्",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "एक मिनेट पढाइ|{readingTime} मिनेट पढाइ",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "घर पृष्ठ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "कागजात साइडबार",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "साइडबार सङ्कुचित गर्नुहोस्",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "साइडबार सङ्कुचित गर्नुहोस्",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "नेभिगेसन बार बन्द गर्नुहोस्",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← मुख्य मेनुमा फर्किनुहोस्",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "साइडबार फैलाउनुहोस्",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "साइडबार फैलाउनुहोस्",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "नेभिगेसन बार टगल गर्नुहोस्",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.blog.post.plurals": {
+    "message": "एक पोस्ट|{count} पोस्टहरू",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} \"{tagName}\" सँग ट्याग गरिएका",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "लेखकहरू",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "सबै लेखकहरू हेर्नुहोस्",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "यस लेखकले अहिलेसम्म कुनै पोस्ट लेखेका छैन।",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "असूचीबद्ध पृष्ठ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "यो पृष्ठ असूचीबद्ध छ। खोज इन्जिनहरूले यसलाई इन्डेक्स गर्दैनन्, र प्रत्यक्ष लिङ्क भएका प्रयोगकर्ताहरूले मात्र यसलाई पहुँच गर्न सक्छन्।",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "मस्यौदा पृष्ठ",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "यो पृष्ठ मस्यौदा हो। यो केवल dev मा देखिनेछ र प्रोडक्सन बिल्डबाट बाहिर राखिनेछ।",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "फेरि कोसिस गर्नुहोस्",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "मुख्य सामग्रीमा जानुहोस्",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "ट्यागहरू",
+    "description": "The title of the tag list page"
+  }
+}

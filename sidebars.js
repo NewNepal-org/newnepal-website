@@ -1,16 +1,24 @@
 module.exports = {
   docs: [
     {
-      type: 'category',
-      label: 'Docusaurus Tutorial',
-      items: [
-        'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
-      ],
+      type: 'doc',
+      label: 'Welcome',
+      id: "intro",
+    },
+    {
+      type: 'doc',
+      label: '⭐️ Contributors Needed!',
+      id: "contributors-needed",
+    },
+    {
+      "type": "link",
+      "label": "Docusaurus Guide",
+      "href": "https://docusaurus.io/docs/category/guides"
+    },
+    {
+      "type": "link",
+      "label": "Discord",
+      "href": "https://discord.gg/mRYbcEAuaQ"
     },
   ],
 };

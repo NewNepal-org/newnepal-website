@@ -1,0 +1,17 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Sample GenZ Team",
+      "description": "A sample team working on community development",
+      "focus": "Community Development",
+      "location": "Kathmandu",
+      "lastUpdated": "2024-01-15",
+      "links": {
+        "Facebook": "https://facebook.com/sampleteam",
+        "Instagram": "https://instagram.com/sampleteam",
+        "Website": "https://sampleteam.org"
+      }
+    }
+  ]
+}
