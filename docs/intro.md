@@ -13,7 +13,7 @@ Our mission is to connect Nepali youth across all divisions and provide a safe s
 
 ## What We're Building
 
-- 🗣️ [**Weekly Debates**](/debate) - Structured debates on critical national issues to build consensus through healthy discourse
+- 🗣️ [**Weekly Debate**](/debate) - Structured debates on critical national issues to build consensus through healthy discourse
 - 📋 [**GenZ Registry**](/genz-registry) - Directory of youth groups to facilitate coordination and collaboration
 - 🔍 [**Corruption Database**](/corruption) - Centralized platform to document evidence and promote accountability
 - 📰 **Youth News Portal** - Nation-building content while preventing misinformation

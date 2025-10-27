@@ -23,3 +23,28 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+/* Print styles */
+@media print {
+  .navbar__logo,
+  .navbar__logo img,
+  .navbar__brand,
+  .navbar__brand img {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .navbar__title {
+    font-size: x-large;
+  }
+  
+  .navbar {
+    display: block !important;
+    height: auto;
+  }
+  
+  .navbar__toggle {
+    display: none !important;
+  }
+}

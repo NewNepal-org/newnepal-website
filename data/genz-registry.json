@@ -7,19 +7,7 @@
       "Social": [
         "https://www.instagram.com/haminepal_/"
       ],
-      "Contact": null,
-      "Description": null,
-      "Focus": null,
-      "Last Updated": null,
-      "Miscellaneous": null
-    },
-    {
-      "Name": [
-        "NYC"
-      ],
-      "Social": [
-        "https://www.facebook.com/profile.php?id=61581360325174"
-      ],
+      "Logo": "/3p/HamiNepal/logo.jpg",
       "Contact": null,
       "Description": null,
       "Focus": null,
@@ -33,34 +21,9 @@
       "Social": [
         "https://www.facebook.com/TheRedChapter"
       ],
+      "Logo": "/3p/TheRedChapter/logo.jpg",
       "Contact": null,
-      "Description": null,
-      "Focus": null,
-      "Last Updated": null,
-      "Miscellaneous": null
-    },
-    {
-      "Name": [
-        "Gen ZNepal"
-      ],
-      "Social": [
-        "https://www.instagram.com/gen.znepal/"
-      ],
-      "Contact": null,
-      "Description": null,
-      "Focus": null,
-      "Last Updated": null,
-      "Miscellaneous": null
-    },
-    {
-      "Name": [
-        "Genz Nepal"
-      ],
-      "Social": [
-        "https://www.instagram.com/genznepalofficial/"
-      ],
-      "Contact": null,
-      "Description": null,
+      "Description": "The Red Chapter is the unfinished story of Nepal’s youth. We honour their sacrifices not with silence, but by rewriting Nepal’s future together — in red ink, with truth, unity, and transparency.”\n\nRemembrance , Renewal and Reform",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
@@ -73,10 +36,11 @@
         "https://www.instagram.com/councilof_genz/",
         "https://www.facebook.com/councilof.genz"
       ],
+      "Logo": "/3p/CouncilOfGenZ/logo.jpg",
       "Contact": [
         "unitedgenznepal@gmail.com"
       ],
-      "Description": null,
+      "Description": "Uniting Gen-Z people to amplify voices, take action, and create real impact.",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
@@ -88,6 +52,7 @@
       "Social": [
         "https://www.instagram.com/indigenousgenz.np/"
       ],
+      "Logo": null,
       "Contact": null,
       "Description": null,
       "Focus": null,
@@ -96,13 +61,15 @@
     },
     {
       "Name": [
-        "HowToDeshBikash"
+        "HowToDeshBikas"
       ],
       "Social": [
-        "https://www.instagram.com/howtodeshbikas"
+        "https://www.instagram.com/howtodeshbikas",
+        "https://www.facebook.com/howtodeshbikas"
       ],
+      "Logo": null,
       "Contact": null,
-      "Description": null,
+      "Description": "translating care into action | desh banaune haina ta?",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
@@ -116,6 +83,35 @@
         "https://www.facebook.com/bhusal.nichol/posts/pfbid0aR3HMUiH9kCA5ZAvacRQHtb72EQv4n5pKdrDQhE9NuQYsgGCMEwHEbmk2V5XJAFJl",
         "https://www.facebook.com/photo/?fbid=1164721069049761&set=a.461626792692529"
       ],
+      "Logo": null,
+      "Contact": null,
+      "Description": null,
+      "Focus": null,
+      "Last Updated": null,
+      "Miscellaneous": null
+    },
+    {
+      "Name": [
+        "Gen ZNepal"
+      ],
+      "Social": [
+        "https://www.instagram.com/gen.znepal/"
+      ],
+      "Logo": null,
+      "Contact": null,
+      "Description": null,
+      "Focus": null,
+      "Last Updated": null,
+      "Miscellaneous": null
+    },
+    {
+      "Name": [
+        "Genz Nepal"
+      ],
+      "Social": [
+        "https://www.instagram.com/genznepalofficial/"
+      ],
+      "Logo": null,
       "Contact": null,
       "Description": null,
       "Focus": null,
@@ -129,11 +125,26 @@
       "Social": [
         "https://www.facebook.com/profile.php?id=61581573059747"
       ],
+      "Logo": null,
+      "Contact": null,
+      "Description": "Revolution, change, happiness, and peace!",
+      "Focus": null,
+      "Last Updated": null,
+      "Miscellaneous": "source\n\nthis"
+    },
+    {
+      "Name": [
+        "Nava Yuwa Central"
+      ],
+      "Social": [
+        "https://www.facebook.com/profile.php?id=61581360325174"
+      ],
+      "Logo": null,
       "Contact": null,
       "Description": null,
       "Focus": null,
       "Last Updated": null,
-      "Miscellaneous": "source\n\nthis"
+      "Miscellaneous": null
     },
     {
       "Name": [
@@ -144,6 +155,7 @@
         "https://www.facebook.com/profile.php?id=61580088106809&rdid=MCRPBa6Ii64uEm33",
         "https://genzrebels.com"
       ],
+      "Logo": null,
       "Contact": [
         "movementalliancegenz@gmail.com"
       ],
@@ -157,8 +169,9 @@
         "Nawa Yug Official"
       ],
       "Social": [
-        "https://www.instagram.com/p/DP1ac4YAQA6/"
+        "https://www.instagram.com/nawayugofficial/"
       ],
+      "Logo": "/3p/NawaYugOfficial/logo.jpg",
       "Contact": null,
       "Description": null,
       "Focus": null,
@@ -172,11 +185,68 @@
       "Social": [
         "https://www.instagram.com/muslimgenz.np/"
       ],
+      "Logo": null,
       "Contact": null,
       "Description": null,
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
+    }
+  ],
+  "websites": [
+    {
+      "Website": "https://NewNepal.org",
+      "Logo": "https://newnepal.org/img/Logo1.png",
+      "Contact": null,
+      "Description": "A Digital Platform for Nepali Youth, by Nepali Youth. Currently incorporating a GenZ registry, Weekly Debate, and near future plans for a centralized, case-by-case Corruption Database.\n"
+    },
+    {
+      "Website": "https://GenzNepalOfficial.com",
+      "Logo": "https://genznepalofficial.com/img/favicon.png",
+      "Contact": null,
+      "Description": null
+    },
+    {
+      "Website": "https://GenzNepal.com",
+      "Logo": "https://genznepal.com/favicon.ico",
+      "Contact": null,
+      "Description": null
+    },
+    {
+      "Website": "https://GenerationZNepal.com",
+      "Logo": "https://generationznepal.com/static/media/genzlogo.975a442e8d66051d08d9.png",
+      "Contact": null,
+      "Description": null
+    },
+    {
+      "Website": "https://GenZ-Nepal.com",
+      "Logo": null,
+      "Contact": null,
+      "Description": null
+    },
+    {
+      "Website": "https://GenZRevolutionNepal.org",
+      "Logo": "https://genzrevolutionnepal.org/storage/setting/logo/01K591T447XJ8EF6JH78V48DQS.png",
+      "Contact": null,
+      "Description": null
+    },
+    {
+      "Website": "https://NayaNepal.info",
+      "Logo": null,
+      "Contact": null,
+      "Description": null
+    },
+    {
+      "Website": "https://NepalReforms.com",
+      "Logo": "https://www.nepalreforms.com/nrlogo7.png",
+      "Contact": null,
+      "Description": null
+    },
+    {
+      "Website": "https://GenzRebels.com",
+      "Logo": "https://genzrebels.com/wp-content/uploads/2025/09/cropped-ChatGPT-Image-Sep-13-2025-01_20_43-AM.jpg",
+      "Contact": null,
+      "Description": null
     }
   ]
 }

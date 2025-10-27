@@ -17,16 +17,16 @@ const features = [
   {
     title: <Translate>Corruption Database</Translate>,
     imageUrl: 'img/corruption-database-icon.svg',
-    description: <Translate>Track and report corruption cases to promote transparency and accountability.</Translate>,
+    description: <Translate>This will be a central case-by-case corruption database, and their statues.</Translate>,
     link: '/corruption',
     underConstruction: true
   },
   {
-    title: <Translate>Weekly Debates</Translate>,
+    title: <Translate>Weekly Debate</Translate>,
     imageUrl: 'img/weekly-debates-icon.svg',
-    description: <Translate>Participate in weekly discussions on important national issues and policies.</Translate>,
+    description: <Translate>Participate in weekly discussions on important national issues and topics.</Translate>,
     link: '/debate',
-    underConstruction: true
+    underConstruction: false
   },
 ];
 
@@ -71,17 +71,35 @@ export default function Home() {
               </button>
             </div>
           )}
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{translate({message: 'A Digital Platform for Nepali Youth, by Nepali Youth'})}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              <Translate>Get Started</Translate>
-            </Link>
+          <div className="row">
+            <div className="col col--6">
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{translate({message: 'A Digital Platform for Nepali Youth, by Nepali Youth'})}</p>
+              <div className={styles.buttons}>
+                <Link
+                  className={clsx(
+                    'button button--outline button--secondary button--lg',
+                    styles.getStarted,
+                  )}
+                  to={useBaseUrl('docs/')}>
+                  <Translate>Get Started</Translate>
+                </Link>
+              </div>
+            </div>
+            <div className="col col--6">
+              <div className="text--center">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/2K214A--Ksc"
+                  title="About NewNepal.org | Damodar Dahal on YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  style={{maxWidth: '560px'}}
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </header>

@@ -50,6 +50,81 @@
   "We're looking for contributors to help develop this debate platform.": {
     "message": "हामी यो बहस प्लेटफर्म विकास गर्न सहयोग गर्ने योगदानकर्ताहरू खोजिरहेका छौं।"
   },
+  "Call for Participation - Weekly Debate": {
+    "message": "सहभागिताको लागि आह्वान - साप्ताहिक बहस"
+  },
+  "NewNepal.org is excited to announce a series of weekly debates focused on nation-building, particularly in light of the recent Gen Z protests in Nepal. We invite all Nepali youth, both those residing in Nepal and those living abroad, to participate in these crucial discussions.": {
+    "message": "NewNepal.org राष्ट्र निर्माणमा केन्द्रित साप्ताहिक बहसहरूको श्रृंखला घोषणा गर्न पाउँदा उत्साहित छ, विशेष गरी नेपालमा हालै भएको जेनेरेशन जेडको विरोध प्रदर्शनलाई ध्यानमा राख्दै। हामी नेपालमा बस्ने र विदेशमा बस्ने सबै नेपाली युवाहरूलाई यी महत्वपूर्ण छलफलहरूमा भाग लिन आमन्त्रित गर्दछौं।"
+  },
+  "Weekly Debate Format": {
+    "message": "साप्ताहिक बहस ढाँचा"
+  },
+  "These debates will be held virtually via Zoom at a consistent, set time each week (TBD). It will follow an Oxford-style debate, where one side will stand for a motion, and another team against it.": {
+    "message": "यी बहसहरू प्रत्येक हप्ता एक निश्चित, निश्चित समयमा (TBD) Zoom मार्फत virtual रूपमा आयोजित गरिनेछ। यो अक्सफोर्ड-शैलीको बहस पछ्याउनेछ, जहाँ एक टोली प्रस्तावको पक्षमा उभिनेछ, र अर्को टोली यसको विरुद्धमा उभिनेछ।"
+  },
+  "Debate Topics": {
+    "message": "बहस विषयहरू"
+  },
+  "The debates seek to cover current issues affecting the future of our nation, including:": {
+    "message": "यी बहसहरूले हाम्रो राष्ट्रको भविष्यलाई असर गर्ने वर्तमान मुद्दाहरूलाई समेट्ने प्रयास गर्छन्, जसमा निम्न समावेश छन्:"
+  },
+  "Whether PM Karki's Government has embodied the changes envisioned by Gen Z": {
+    "message": "प्रधानमन्त्री कार्कीको सरकारले GenZले परिकल्पना गरेका परिवर्तनहरूलाई मूर्त रूप दिएको छ कि छैन?"
+  },
+  "Whether Nepal should adopt a directly elected prime minister/president": {
+    "message": "नेपालले प्रत्यक्ष निर्वाचित प्रधानमन्त्री/राष्ट्रपति अपनाउनु पर्छ कि पर्दैन?"
+  },
+  "Whether federalism has any place in Nepal's future": {
+    "message": "नेपालको भविष्यमा संघीयताको कुनै स्थान छ कि छैन?"
+  },
+  "Whether voting rights should be granted for Nepalese Citizens Living Abroad": {
+    "message": "विदेशमा बस्ने नेपाली नागरिकहरूलाई मतदान अधिकार प्रदान गर्नुपर्छ कि पर्दैन?"
+  },
+  "Whether socialism has any more future in Nepal": {
+    "message": "नेपालमा समाजवादको भविष्य छ कि छैन?"
+  },
+  "Whether the current government is bought by NGOs": {
+    "message": "के वर्तमान सरकार NGOहरूले किनेको हो?"
+  },
+  "Registration": {
+    "message": "दर्ता"
+  },
+  "For registration in one or more debate events, either as a speaker or as a participant, please fill out this form on Google Forms. For more details on participation, please reach out to us via ": {
+    "message": "बहस कार्यक्रमहरूमा वक्ता वा सहभागीको रूपमा दर्ताको लागि कृपया यो फारम भर्नुहोस्। सहभागिताको बारेमा थप विवरणहरूको लागि, कृपया हामीलाई "
+  },
+  " or on our ": {
+    "message": " मार्फत वा हाम्रो "
+  },
+  "Discord server": {
+    "message": "Discord सर्भर"
+  },
+  "Weekly Debate": {
+    "message": "साप्ताहिक बहस"
+  },
+  "This will be a central case-by-case corruption database, and their statues.": {
+    "message": "यो केन्द्रीकृत केस-बाई-केस भ्रष्टाचार डाटाबेस हुनेछ, र तिनीहरूको स्थिति।"
+  },
+  "Participate in weekly discussions on important national issues and topics.": {
+    "message": "महत्वपूर्ण राष्ट्रिय मुद्दा र विषयहरूमा साप्ताहिक छलफलमा सहभागी हुनुहोस्।"
+  },
+  "GenZ Websites": {
+    "message": "जेनजेड वेबसाइटहरू"
+  },
+  "Source of Truth": {
+    "message": "सत्यको स्रोत"
+  },
+  "this form on Google Forms": {
+    "message": "Google Forms मा यो फारम"
+  },
+  "For more details about our mission and values, visit our": {
+    "message": "हाम्रो मिशन र मूल्यहरूको बारेमा थप विवरणहरूको लागि, हाम्रो"
+  },
+  "mission page": {
+    "message": "मिशन पृष्ठ"
+  },
+  "If your group isn't included or your info needs update, please": {
+    "message": "यदि तपाईंको समूह समावेश छैन वा तपाईंको जानकारी अपडेट गर्न आवश्यक छ भने, कृपया"
+  },
   "GenZ Registry": {
     "message": "जेनजेड रजिस्ट्री"
   },
@@ -96,7 +171,7 @@
     "message": "विवरण <head /> मा मेटा ट्यागमा जानेछ"
   },
   "⭐️ Contributors Needed! We're looking for Web Developers, Designers, and Content Creators.": {
-    "message": "⭐️ योगदानकर्ताहरू आवश्यक! हामी वेब डेभलपर, डिजाइनर र सामग्री निर्माताहरू खोजिरहेका छौं।"
+    "message": "⭐️ योगदानकर्ताहरू आवश्यक! हामी Web Developers, Designers र Content Creators हरू खोजिरहेका छौं।"
   },
   "Learn More": {
     "message": "विस्तृत जानकारी"
