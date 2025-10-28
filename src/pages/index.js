@@ -75,16 +75,8 @@ export default function Home() {
             <div className="col col--6">
               <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{translate({message: 'A Digital Platform for Nepali Youth, by Nepali Youth'})}</p>
-              <div className={styles.buttons}>
-                <Link
-                  className={clsx(
-                    'button button--outline button--secondary button--lg',
-                    styles.getStarted,
-                  )}
-                  to={useBaseUrl('docs/')}>
-                  <Translate>Get Started</Translate>
-                </Link>
-              </div>
+              <p className="margin-top--md"><Translate>Founded to serve the GenZ revolution, NewNepal addresses specific challenges faced by GenZ groups. We provide a registry for discovering youth organizations, the first centralized case-by-case corruption tracking database, and weekly debate platforms.</Translate></p>
+
             </div>
             <div className="col col--6">
               <div className="text--center">

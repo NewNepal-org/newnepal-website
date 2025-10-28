@@ -27,9 +27,21 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Contribute',
+          to: 'genz-registry/',
+          activeBasePath: 'genz-registry',
+          label: 'GenZ Registry',
+          position: 'left',
+        },
+        {
+          to: 'debate/',
+          activeBasePath: 'debate',
+          label: 'Debate',
+          position: 'left',
+        },
+        {
+          to: 'corruption/',
+          activeBasePath: 'corruption',
+          label: 'CorruptionDB',
           position: 'left',
         },
         {
@@ -44,7 +56,6 @@ module.exports = {
           label: 'About',
           position: 'left',
         },
-        {to: 'blog', label: 'Updates', position: 'left'},
         {
           type: 'localeDropdown',
           position: 'right',
@@ -71,6 +82,11 @@ module.exports = {
               label: 'Discord',
               position: 'right',
             },
+            {
+              href: 'https://www.facebook.com/newnepal.org',
+              label: 'Facebook',
+              position: 'right',
+            },
           ],
         },
         {
@@ -94,7 +110,7 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Announcements',
               to: 'blog',
             },
             {

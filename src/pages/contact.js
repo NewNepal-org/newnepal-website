@@ -12,6 +12,7 @@ export default function Contact() {
             <p><Translate>Get in touch with us:</Translate></p>
             <p><Translate>Email:</Translate> <a href="mailto:hello@newnepal.org">hello@newnepal.org</a></p>
             <p><Translate>Discord:</Translate> <a href="https://discord.gg/mRYbcEAuaQ" target="_blank" rel="noopener noreferrer"><Translate>Join our Discord server</Translate></a></p>
+            <p><Translate>Facebook:</Translate> <a href="https://www.facebook.com/newnepal.org" target="_blank" rel="noopener noreferrer">facebook.com/newnepal.org</a></p>
           </div>
         </div>
       </div>

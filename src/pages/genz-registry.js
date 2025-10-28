@@ -22,7 +22,7 @@ export default function GenZRegistry() {
             <p><Translate>Discover GenZ teams and groups working towards positive change in Nepal.</Translate></p>
             
             <div className="alert alert--info margin-bottom--lg">
-              <p><em><a href={GENZ_REGISTRY_SHEET_WEB_URL} target="_blank" rel="noopener noreferrer"><strong><Translate>Source of Truth</Translate></strong></a>: <Translate>If your group isn't included or your info needs update, please</Translate> <Link to="/contact"><Translate>contact us</Translate></Link>.</em></p>
+              <p><em><Translate>If your group isn't included or your info needs update, please</Translate> <Link to="/contact"><Translate>contact us</Translate></Link> (also see <a href={GENZ_REGISTRY_SHEET_WEB_URL} target="_blank" rel="noopener noreferrer"><Translate>source of truth</Translate></a>).</em></p>
             </div>
             
             <div className="margin-vert--lg">

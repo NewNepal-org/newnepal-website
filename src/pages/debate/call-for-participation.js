@@ -2,9 +2,9 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Translate, {translate} from '@docusaurus/Translate';
 
-export default function WeeklyDebates() {
+export default function CallForParticipation() {
   return (
-    <Layout title={translate({message: 'Weekly Debates'})} description={translate({message: 'Weekly Debates page'})}>
+    <Layout title={translate({message: 'Call for Participation'})} description={translate({message: 'Join the weekly debates for New Nepal'})}>
       <div className="container margin-vert--lg">
         <div className="row">
           <div className="col col--8 col--offset-2">
@@ -13,6 +13,7 @@ export default function WeeklyDebates() {
             
             <h2><Translate>Weekly Debate Format</Translate></h2>
             <p><Translate>These debates will be held virtually via Zoom at a consistent, set time each week (TBD). It will follow an Oxford-style debate, where one side will stand for a motion, and another team against it.</Translate></p>
+            <p><Translate>Please review the </Translate><a href="./"><Translate>debate rules</Translate></a><Translate> before participating.</Translate></p>
             
             <h2><Translate>Debate Topics</Translate></h2>
             <p><Translate>The debates seek to cover current issues affecting the future of our nation, including:</Translate></p>
@@ -26,7 +27,7 @@ export default function WeeklyDebates() {
             </ol>
             
             <h2><Translate>Registration</Translate></h2>
-            <p><Translate>For registration in one or more debate events, either as a speaker or as a participant, please fill out </Translate><a href="https://docs.google.com/forms/d/e/1FAIpQLScTvdYqJmPdZ-maKu_b8bJzwr8N7gsFdticPbO5w6Hp9jJdGw/viewform" target="_blank" rel="noopener noreferrer"><Translate>this form on Google Forms</Translate></a><Translate>. For more details on participation, please reach out to us via </Translate><a href="mailto:hello@newnepal.org">hello@newnepal.org</a><Translate> or on our </Translate><a href="https://discord.gg/mRYbcEAuaQ" target="_blank" rel="noopener noreferrer"><Translate>Discord server</Translate></a>.</p>
+            <p><Translate>For registration in one or more debate events, either as a speaker or as a participant, please fill out </Translate><a href="https://docs.google.com/forms/d/e/1FAIpQLScTvdYqJmPdZ-maKu_b8bJzwr8N7gsFdticPbO5w6Hp9jJdGw/viewform" target="_blank" rel="noopener noreferrer"><Translate>this form</Translate></a><Translate>. For more details on participation, please reach out to us via </Translate><a href="mailto:hello@newnepal.org">hello@newnepal.org</a><Translate> or on our </Translate><a href="https://discord.gg/mRYbcEAuaQ" target="_blank" rel="noopener noreferrer"><Translate>Discord server</Translate></a>.</p>
           </div>
         </div>
       </div>

@@ -14,6 +14,9 @@
   "Discord:": {
     "message": "Discord:"
   },
+  "Facebook:": {
+    "message": "Facebook:"
+  },
   "Join our Discord server": {
     "message": "हाम्रो Discord सर्भरमा सामेल हुनुहोस्"
   },
@@ -98,6 +101,9 @@
   "Discord server": {
     "message": "Discord सर्भर"
   },
+  "Facebook": {
+    "message": "Facebook"
+  },
   "Weekly Debate": {
     "message": "साप्ताहिक बहस"
   },
@@ -110,7 +116,7 @@
   "GenZ Websites": {
     "message": "जेनजेड वेबसाइटहरू"
   },
-  "Source of Truth": {
+  "source of truth": {
     "message": "सत्यको स्रोत"
   },
   "this form on Google Forms": {
@@ -181,6 +187,81 @@
   },
   "A Digital Platform for Nepali Youth, by Nepali Youth": {
     "message": "नेपाली युवाहरूका लागि, नेपाली युवाहरूद्वारा निर्मित डिजिटल प्लेटफर्म"
+  },
+  "Founded to serve the GenZ revolution, NewNepal addresses specific challenges faced by GenZ groups. We provide a registry for discovering youth organizations, the first centralized case-by-case corruption tracking database, and weekly debate platforms.": {
+    "message": "जेनजेड क्रान्तिको सेवा गर्न स्थापना गरिएको, NewNepal ले जेनजेड समूहहरूले सामना गर्ने विशिष्ट चुनौतीहरूलाई सम्बोधन गर्छ। हामी युवा संगठनहरू खोज्नका लागि रजिस्ट्री, पहिलो केन्द्रीकृत केस-बाई-केस भ्रष्टाचार ट्र्याकिङ डाटाबेस, र साप्ताहिक बहस प्लेटफर्महरू प्रदान गर्छौं।"
+  },
+  "Call for Participation": {
+    "message": "सहभागिताको लागि आह्वान"
+  },
+  "Join the weekly debates for New Nepal": {
+    "message": "New Nepal का लागि साप्ताहिक बहसमा सामेल हुनुहोस्"
+  },
+  "Please review the ": {
+    "message": "कृपया "
+  },
+  "debate rules": {
+    "message": "बहस नियमहरू"
+  },
+  " before participating.": {
+    "message": " सहभागी हुनु अघि समीक्षा गर्नुहोस्।"
+  },
+  "this form": {
+    "message": "यो फारम"
+  },
+  "Aim of the Debates": {
+    "message": "बहसको उद्देश्य"
+  },
+  "Our weekly debates aim to foster critical thinking and constructive dialogue on Nepal's future. We seek to engage Nepali youth in meaningful discussions about nation-building, governance, and the path forward for our country.": {
+    "message": "हाम्रो साप्ताहिक बहसको उद्देश्य नेपालको भविष्यमा आलोचनात्मक सोच र रचनात्मक संवादलाई बढावा दिनु हो। हामी नेपाली युवाहरूलाई राष्ट्र निर्माण, शासन, र हाम्रो देशको अगाडिको बाटोको बारेमा अर्थपूर्ण छलफलमा संलग्न गराउन चाहन्छौं।"
+  },
+  "Join our Call for Participation →": {
+    "message": "हाम्रो सहभागिताको आह्वानमा सामेल हुनुहोस् →"
+  },
+  "Prospective Topics": {
+    "message": "सम्भावित विषयहरू"
+  },
+  "PM Sushila Karki's Government has aptly and effectively embodied the change envisioned by Gen Z?": {
+    "message": "प्रधानमन्त्री सुशीला कार्कीको सरकारले जेन जेडले परिकल्पना गरेको परिवर्तनलाई उपयुक्त र प्रभावकारी रूपमा मूर्त रूप दिएको छ?"
+  },
+  "Nepal needs a Directly Elected Prime Minister or a President.": {
+    "message": "नेपाललाई प्रत्यक्ष निर्वाचित प्रधानमन्त्री वा राष्ट्रपति चाहिन्छ।"
+  },
+  "Federalism has no place in Nepal.": {
+    "message": "नेपालमा संघीयताको कुनै स्थान छैन।"
+  },
+  "Socialism has no future in Nepal.": {
+    "message": "नेपालमा समाजवादको कुनै भविष्य छैन।"
+  },
+  "Current Nepal government is an NGO government.": {
+    "message": "वर्तमान नेपाल सरकार एक NGO सरकार हो।"
+  },
+  "Yemale, Congress, and Maobadi should be banned from participating in the March election.": {
+    "message": "एमाले, कांग्रेस र माओवादीलाई मार्चको चुनावमा भाग लिनबाट प्रतिबन्ध लगाउनुपर्छ।"
+  },
+  "Debate Rules": {
+    "message": "बहस नियमहरू"
+  },
+  "Oxford-style format with teams for and against each motion": {
+    "message": "प्रत्येक प्रस्तावको पक्ष र विपक्षमा टोलीहरूसहित अक्सफोर्ड-शैलीको ढाँचा"
+  },
+  "Respectful discourse and evidence-based arguments": {
+    "message": "सम्मानजनक बहस र प्रमाणमा आधारित तर्कहरू"
+  },
+  "Equal speaking time for all participants": {
+    "message": "सबै सहभागीहरूका लागि समान बोल्ने समय"
+  },
+  "Moderated discussions with structured rebuttals": {
+    "message": "संरचित खण्डनसहित मध्यस्थता गरिएको छलफल"
+  },
+  "Contact Us": {
+    "message": "हामीलाई सम्पर्क गर्नुहोस्"
+  },
+  "For questions or more information, reach out to us at ": {
+    "message": "प्रश्न वा थप जानकारीको लागि, हामीलाई "
+  },
+  " or join our ": {
+    "message": " मा सम्पर्क गर्नुहोस् वा हाम्रो "
   },
   "theme.ErrorPageContent.title": {
     "message": "यो पृष्ठ क्र्यास भयो।",
