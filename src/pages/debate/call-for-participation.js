@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
 
 export default function CallForParticipation() {
@@ -13,7 +14,7 @@ export default function CallForParticipation() {
             
             <h2><Translate>Weekly Debate Format</Translate></h2>
             <p><Translate>These debates will be held virtually via Zoom at a consistent, set time each week (TBD). It will follow an Oxford-style debate, where one side will stand for a motion, and another team against it.</Translate></p>
-            <p><Translate>Please review the </Translate><a href="./"><Translate>debate rules</Translate></a><Translate> before participating.</Translate></p>
+            <p><Translate>Please review the </Translate><Link to="/debate"><Translate>debate rules</Translate></Link><Translate> before participating.</Translate></p>
             
             <h2><Translate>Debate Topics</Translate></h2>
             <p><Translate>The debates seek to cover current issues affecting the future of our nation, including:</Translate></p>

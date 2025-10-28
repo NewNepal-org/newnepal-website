@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
 
 export default function WeeklyDebates() {
@@ -13,7 +14,7 @@ export default function WeeklyDebates() {
             <h2><Translate>Aim of the Debates</Translate></h2>
             <p><Translate>Our weekly debates aim to foster critical thinking and constructive dialogue on Nepal's future. We seek to engage Nepali youth in meaningful discussions about nation-building, governance, and the path forward for our country.</Translate></p>
             
-            <p><a href="./call-for-participation"><Translate>Join our Call for Participation →</Translate></a></p>
+            <p><Link to="/debate/call-for-participation" className="button button--primary button--lg"><Translate>Join our Call for Participation</Translate></Link></p>
             
             <h2><Translate>Prospective Topics</Translate></h2>
             <ul>

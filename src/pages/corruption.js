@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
 
 export default function CorruptionDatabase() {
@@ -15,7 +16,7 @@ export default function CorruptionDatabase() {
             </div>
             <div className="alert alert--info">
               <h4><Translate>🤝 Contributors Needed</Translate></h4>
-              <p><Translate>We're looking for contributors to help build this important resource.</Translate> <a href="/docs/contributors-needed"><Translate>Learn how you can contribute</Translate></a>.</p>
+              <p><Translate>We're looking for contributors to help build this important resource.</Translate> <Link to="/docs/contributors-needed"><Translate>Learn how you can contribute</Translate></Link>.</p>
             </div>
           </div>
         </div>

@@ -51,6 +51,18 @@
     "message": "दृष्टिकोण",
     "description": "The label of footer link with label=Vision linking to vision"
   },
+  "link.item.label.Partner with Us": {
+    "message": "हामीसँग सहकार्य गर्नुहोस्",
+    "description": "The label of footer link with label=Partner with Us"
+  },
+  "link.item.label.Announcements": {
+    "message": "घोषणाहरू",
+    "description": "The label of footer link with label=Announcements"
+  },
+  "link.item.label.Mission": {
+    "message": "मिशन",
+    "description": "The label of footer link with label=Mission"
+  },
   "copyright": {
     "message": "Copyright © 2025 NewNepal.org. Docusaurus सँग निर्मित।",
     "description": "The footer copyright"

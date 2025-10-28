@@ -194,6 +194,12 @@
   "Partner with Us": {
     "message": "हामीसँग सहकार्य गर्नुहोस्"
   },
+  "Announcements": {
+    "message": "घोषणाहरू"
+  },
+  "Mission": {
+    "message": "मिशन"
+  },
   "Call for Participation": {
     "message": "सहभागिताको लागि आह्वान"
   },
@@ -220,6 +226,9 @@
   },
   "Join our Call for Participation →": {
     "message": "हाम्रो सहभागिताको आह्वानमा सामेल हुनुहोस् →"
+  },
+  "Join our Call for Participation": {
+    "message": "हाम्रो सहभागिताको आह्वानमा सामेल हुनुहोस्"
   },
   "Prospective Topics": {
     "message": "सम्भावित विषयहरू"

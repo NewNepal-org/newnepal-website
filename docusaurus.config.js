@@ -2,10 +2,11 @@
 module.exports = {
   title: 'NewNepal.org',
   tagline: 'A Digital Platform for Nepali Youth, by Nepali Youth',
-  url: 'https://newnepal.org/', // Replace it with your deployed Pages URL
+  url: 'https://newnepal.org', // Replace it with your deployed Pages URL
   baseUrl: '/', // When the unique domain is disabled, replace it with your project’s name.
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'throw',
   favicon: 'img/favicon.png',
   organizationName: 'NewNepal', // Usually your GitHub org/user name.
   projectName: 'NewNepal.org', // Usually your repo name.
