@@ -22,5 +22,17 @@
   "item.label.Updates": {
     "message": "अपडेटहरू",
     "description": "Navbar item with label Updates"
+  },
+  "item.label.GenZ Registry": {
+    "message": "जेनजेड रजिस्ट्री",
+    "description": "Navbar item with label GenZ Registry"
+  },
+  "item.label.Debate": {
+    "message": "बहस",
+    "description": "Navbar item with label Debate"
+  },
+  "item.label.CorruptionDB": {
+    "message": "भ्रष्टाचार डेटाबेस",
+    "description": "Navbar item with label CorruptionDB"
   }
 }
