@@ -20,6 +20,20 @@ module.exports = {
     },
   },
   themeConfig: {
+    metadata: [
+      {name: 'keywords', content: 'Nepal, Nepali youth, digital platform, GenZ, debate, corruption, democracy'},
+      {name: 'description', content: 'A Digital Platform for Nepali Youth, by Nepali Youth - featuring GenZ Registry, debates, and corruption tracking'},
+      {name: 'author', content: 'NewNepal.org'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:title', content: 'NewNepal.org - A Digital Platform for Nepali Youth'},
+      {property: 'og:description', content: 'A Digital Platform for Nepali Youth, by Nepali Youth - featuring GenZ Registry, debates, and corruption tracking'},
+      {property: 'og:url', content: 'https://newnepal.org'},
+      {property: 'og:image', content: 'https://newnepal.org/img/Logo1.png'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'NewNepal.org - A Digital Platform for Nepali Youth'},
+      {name: 'twitter:description', content: 'A Digital Platform for Nepali Youth, by Nepali Youth - featuring GenZ Registry, debates, and corruption tracking'},
+      {name: 'twitter:image', content: 'https://newnepal.org/img/Logo1.png'},
+    ],
     navbar: {
       title: 'NewNepal.org',
       logo: {
