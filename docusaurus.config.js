@@ -69,6 +69,10 @@ module.exports = {
           title: 'Contribute',
           items: [
             {
+              label: 'Partner with Us',
+              to: 'partner',
+            },
+            {
               label: 'Guidelines and Documentation',
               to: 'docs/',
             },

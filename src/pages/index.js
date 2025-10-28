@@ -76,6 +76,11 @@ export default function Home() {
               <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{translate({message: 'A Digital Platform for Nepali Youth, by Nepali Youth'})}</p>
               <p className="margin-top--md"><Translate>Founded to serve the GenZ revolution, NewNepal addresses specific challenges faced by GenZ groups. We provide a registry for discovering youth organizations, the first centralized case-by-case corruption tracking database, and weekly debate platforms.</Translate></p>
+              <div className="margin-top--lg">
+                <Link className="button button--secondary button--lg" to="/partner">
+                  <Translate>Partner with Us</Translate>
+                </Link>
+              </div>
 
             </div>
             <div className="col col--6">

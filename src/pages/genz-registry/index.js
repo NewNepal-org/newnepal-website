@@ -2,8 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
-import registryData from '../../data/genz-registry.json';
-import { GENZ_REGISTRY_SHEET_WEB_URL } from '../constants';
+import registryData from '../../../data/genz-registry.json';
+import { GENZ_REGISTRY_SHEET_WEB_URL } from '../../constants';
 
 function getIconForLink(link) {
   if (link.includes('@')) return '/img/icons/email.svg';
@@ -20,6 +20,12 @@ export default function GenZRegistry() {
           <div className="col col--8 col--offset-2">
             <h1><Translate>GenZ Registry</Translate></h1>
             <p><Translate>Discover GenZ teams and groups working towards positive change in Nepal.</Translate></p>
+            
+            <div className="margin-bottom--lg">
+              <Link className="button button--primary button--lg" to="/partner">
+                <Translate>Partner with Us</Translate>
+              </Link>
+            </div>
             
             <div className="alert alert--info margin-bottom--lg">
               <p><em><Translate>If your group isn't included or your info needs update, please</Translate> <Link to="/contact"><Translate>contact us</Translate></Link> (also see <a href={GENZ_REGISTRY_SHEET_WEB_URL} target="_blank" rel="noopener noreferrer"><Translate>source of truth</Translate></a>).</em></p>
