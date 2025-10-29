@@ -85,7 +85,7 @@
       ],
       "Logo": null,
       "Contact": null,
-      "Description": null,
+      "Description": "https://www.osnepal.com/574862",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
@@ -112,7 +112,9 @@
         "https://www.instagram.com/genznepalofficial/"
       ],
       "Logo": null,
-      "Contact": null,
+      "Contact": [
+        "contactgenznepalofficial@gmail.com"
+      ],
       "Description": null,
       "Focus": null,
       "Last Updated": null,
@@ -201,6 +203,30 @@
       "Description": "A Digital Platform for Nepali Youth, by Nepali Youth. Currently incorporating a GenZ registry, Weekly Debate, and near future plans for a centralized, case-by-case Corruption Database.\n"
     },
     {
+      "Website": "https://NepalReforms.com",
+      "Logo": "https://www.nepalreforms.com/nrlogo7.png",
+      "Contact": null,
+      "Description": "Nepal's democracy is at a crossroads. This platform is where citizens shape the future, through ideas, debate, and action. From tackling corruption to rethinking elections, your voice can turn protest into progress.\n\nBorn from the bold energy of Gen Z, and strengthened by the wisdom and support of experts, professionals, and concerned Nepalis of all ages and sectors, this movement is bigger than any one generation.\n\nThis manifesto isn't just words, it's a roadmap for a just, accountable Nepal."
+    },
+    {
+      "Website": "https://Jhappad.com",
+      "Logo": "https://jhappad.com/favicon.svg",
+      "Contact": null,
+      "Description": "A collective SLAP to corruption in Nepal. We are ordinary Nepali people uniting against corrupt politicians and their family."
+    },
+    {
+      "Website": "https://RateMyNeta.com",
+      "Logo": "https://ratemyneta.com/logo.png",
+      "Contact": null,
+      "Description": "Approval Ratings for Nepali Politicians: Where Politics Gets a Performance Review"
+    },
+    {
+      "Website": "LetsBuildNepal.com",
+      "Logo": null,
+      "Contact": null,
+      "Description": "Let's Build Nepal is building a powerful technology, media and policy platform to bring about the change the revolution stands for."
+    },
+    {
       "Website": "https://GenzNepalOfficial.com",
       "Logo": "https://genznepalofficial.com/img/favicon.png",
       "Contact": null,
@@ -233,12 +259,6 @@
     {
       "Website": "https://NayaNepal.info",
       "Logo": null,
-      "Contact": null,
-      "Description": null
-    },
-    {
-      "Website": "https://NepalReforms.com",
-      "Logo": "https://www.nepalreforms.com/nrlogo7.png",
       "Contact": null,
       "Description": null
     },
