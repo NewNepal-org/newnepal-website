@@ -11,20 +11,16 @@ import gfm from "remark-gfm";
 
 
 function getIconForLink(link) {
-  if (link.includes('@')) return '/img/icons/email.svg';
+  if (link.includes('@') && !link.startsWith('http')) return '/img/icons/email.svg';
   if (link.includes('facebook')) return '/img/icons/facebook.svg';
   if (link.includes('instagram')) return '/img/icons/instagram.svg';
+  if (link.includes('tiktok')) return '/img/icons/tiktok.svg';
+  if (link.includes('youtube') || link.includes('youtu.be')) return '/img/icons/youtube.svg';
   return '/img/icons/website.svg';
 }
 
 function MarkdownWithAutoLinks({ children }) {
-  // const urlRegex = /(https?:\/\/[^\s]+)/g;
-  // const processedText = children.replace(urlRegex, '[$1]($1)');
-  // const processedText = autoLinkMd(children);
-
-  // console.log(processedText)
   return <Markdown remarkPlugins={[gfm]}>{children}</Markdown>;
-  // return <ReactMarkdown components={{a: ({href, children}) => <a href={href} target="_blank" rel="noopener noreferrer">{children}</a>}}>{processedText}</ReactMarkdown>;
 }
 
 export default function GenZRegistry() {

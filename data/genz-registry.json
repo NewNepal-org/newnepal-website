@@ -9,7 +9,7 @@
       ],
       "Logo": "/3p/HamiNepal/logo.jpg",
       "Contact": null,
-      "Description": null,
+      "Description": "Hami Nepal is a non-profit organization founded in 2015, initially to provide earthquake relief and now involved in social and political causes in Nepal.\n\nThe organization and its leader, Sudan Gurung, are known for leading the 2025 Nepal Gen Z protests.",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
@@ -93,6 +93,25 @@
     },
     {
       "Name": [
+        "Nava Yuwa Central"
+      ],
+      "Social": [
+        "https://www.facebook.com/profile.php?id=61581360325174",
+        "https://www.instagram.com/navayuwacentral",
+        "https://www.youtube.com/@NavaYuwaCentral",
+        "https://www.tiktok.com/@navayuwacentral"
+      ],
+      "Logo": "/3p/NavaYuwaCentral/logo.jpg",
+      "Contact": [
+        "navayuwacentralnyc@gmail.com"
+      ],
+      "Description": "We are a community of like minded people with a common motive. United by a common purpose, we maintain a neutral stance, free from political ties. Our sole focus is to collaborate for the betterment of Nepal. 🇳🇵",
+      "Focus": null,
+      "Last Updated": null,
+      "Miscellaneous": null
+    },
+    {
+      "Name": [
         "HowToDeshBikas"
       ],
       "Social": [
@@ -165,20 +184,6 @@
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": "source\n\nthis"
-    },
-    {
-      "Name": [
-        "Nava Yuwa Central"
-      ],
-      "Social": [
-        "https://www.facebook.com/profile.php?id=61581360325174"
-      ],
-      "Logo": null,
-      "Contact": null,
-      "Description": null,
-      "Focus": null,
-      "Last Updated": null,
-      "Miscellaneous": null
     },
     {
       "Name": [
