@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
+import ReactMarkdown from 'react-markdown';
 import registryData from '../../../data/genz-registry.json';
+import { fetchRegistry } from '../../utils/fetch-registry';
 import { GENZ_REGISTRY_SHEET_WEB_URL } from '../../constants';
+import Markdown from 'react-markdown';
+import gfm from "remark-gfm";
+
 
 function getIconForLink(link) {
   if (link.includes('@')) return '/img/icons/email.svg';
@@ -12,7 +17,28 @@ function getIconForLink(link) {
   return '/img/icons/website.svg';
 }
 
+function MarkdownWithAutoLinks({ children }) {
+  // const urlRegex = /(https?:\/\/[^\s]+)/g;
+  // const processedText = children.replace(urlRegex, '[$1]($1)');
+  // const processedText = autoLinkMd(children);
+
+  // console.log(processedText)
+  return <Markdown remarkPlugins={[gfm]}>{children}</Markdown>;
+  // return <ReactMarkdown components={{a: ({href, children}) => <a href={href} target="_blank" rel="noopener noreferrer">{children}</a>}}>{processedText}</ReactMarkdown>;
+}
+
 export default function GenZRegistry() {
+  const [data, setData] = useState(registryData);
+  
+  useEffect(() => {
+    fetchRegistry()
+      .then(setData)
+      .catch((error) => {
+        console.error('Failed to fetch registry data:', error);
+        setData(registryData);
+      });
+  }, []);
+  
   return (
     <Layout title={translate({message: 'GenZ Registry'})} description={translate({message: 'GenZ Registry - Discover GenZ teams working for Nepal'})}>
       <div className="container margin-vert--lg">
@@ -34,7 +60,7 @@ export default function GenZRegistry() {
             <div className="margin-vert--lg">
               <h2><Translate>GenZ Teams</Translate></h2>
               <div className="row">
-                {registryData.teams.map((team, index) => (
+                {data.teams.map((team, index) => (
                   <div key={index} className="col col--6 margin-bottom--md">
                     <div className="card" style={{height: '100%'}}>
                       <div className="card__body" style={{lineHeight: '1.2'}}>
@@ -42,7 +68,7 @@ export default function GenZRegistry() {
                           <img src={team.Logo || '/img/icons/group.svg'} alt="Logo" style={{width: '48px', height: '48px', marginRight: '0.5rem'}} />
                           <h3 style={{margin: 0}}>{team.Name?.[0] || 'Unknown'}</h3>
                         </div>
-                        {team.Description && <p style={{marginBottom: '0.3rem'}}>{team.Description}</p>}
+                        {team.Description && <div style={{marginBottom: '0.3rem'}}><MarkdownWithAutoLinks>{team.Description}</MarkdownWithAutoLinks></div>}
                         {team.Focus && <p style={{marginBottom: '0.3rem'}}><strong><Translate>Focus:</Translate></strong> {team.Focus}</p>}
                         {team['Last Updated'] && <p style={{marginBottom: '0.3rem'}}><strong><Translate>Last Updated:</Translate></strong> {team['Last Updated']}</p>}
                         {(team.Social || team.Contact) && (
@@ -64,7 +90,7 @@ export default function GenZRegistry() {
             <div className="margin-vert--lg">
               <h2><Translate>GenZ Websites</Translate></h2>
               <div className="row">
-                {registryData.websites.map((website, index) => (
+                {data.websites.map((website, index) => (
                   <div key={index} className="col col--6 margin-bottom--md">
                     <div className="card" style={{height: '100%'}}>
                       <div className="card__body" style={{lineHeight: '1.2'}}>
@@ -76,7 +102,7 @@ export default function GenZRegistry() {
                             </a>
                           </h3>
                         </div>
-                        {website.Description && <p style={{marginBottom: '0.3rem'}}>{website.Description}</p>}
+                        {website.Description && <div style={{marginBottom: '0.3rem'}}><MarkdownWithAutoLinks>{website.Description}</MarkdownWithAutoLinks></div>}
                         {website.Contact && (
                           <div style={{display: 'flex', gap: '8px', alignItems: 'center'}}>
                             {website.Contact.map((contact, i) => (
