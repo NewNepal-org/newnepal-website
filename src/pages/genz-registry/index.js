@@ -16,6 +16,9 @@ function getIconForLink(link) {
   if (link.includes('instagram')) return '/img/icons/instagram.svg';
   if (link.includes('tiktok')) return '/img/icons/tiktok.svg';
   if (link.includes('youtube') || link.includes('youtu.be')) return '/img/icons/youtube.svg';
+  if (link.includes('discord')) return '/img/icons/discord.svg';
+  if (link.includes('twitter')) return '/img/icons/twitter.svg';
+  if (link.includes('x.com')) return '/img/icons/twitter.svg';
   return '/img/icons/website.svg';
 }
 
