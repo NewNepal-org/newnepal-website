@@ -5,11 +5,12 @@
         "Hami Nepal"
       ],
       "Social": [
-        "https://www.instagram.com/haminepal_/"
+        "https://www.instagram.com/haminepal_/",
+        "https://discord.gg/youthsagainstcorruption"
       ],
       "Logo": "/3p/HamiNepal/logo.jpg",
       "Contact": null,
-      "Description": "Hami Nepal is a non-profit organization founded in 2015, initially to provide earthquake relief and now involved in social and political causes in Nepal.\n\nThe organization and its leader, Sudan Gurung, are known for leading the 2025 Nepal Gen Z protests.",
+      "Description": "Hami Nepal is a non-profit organization founded in 2015, initially to provide earthquake relief and now involved in social and political causes in Nepal.\n\nThe organization and its leader, Sudan Gurung, are known for leading the 2025 Nepal Gen Z protests. They moderate the Youth Against Corruption Discord server.",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
@@ -85,7 +86,7 @@
       ],
       "Logo": "/3p/GenZUnited/image.png",
       "Contact": null,
-      "Description": "Revolution, change, happiness, and peace!\n\n- [Our demands (October 22, 2025)](https://www.facebook.com/photo/?fbid=122106274125052435)",
+      "Description": "Revolution, change, happiness, and peace!\n\n- [About GenZ United (October 22, 2025)](https://www.facebook.com/photo/?fbid=122106274125052435)\n- [सम्माननीय गृहमन्त्रीज्यूलाई बुझाइिएको पत्र (October 30, 2025)](https://www.facebook.com/photo/?fbid=122108040123052435)",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": "source\n\nthis"
@@ -161,7 +162,8 @@
         "https://www.facebook.com/profile.php?id=61581360325174",
         "https://www.instagram.com/navayuwacentral",
         "https://www.youtube.com/@NavaYuwaCentral",
-        "https://www.tiktok.com/@navayuwacentral"
+        "https://www.tiktok.com/@navayuwacentral",
+        "https://discord.com/invite/navayuwacentral"
       ],
       "Logo": "/3p/NavaYuwaCentral/logo.jpg",
       "Contact": [
@@ -174,15 +176,29 @@
     },
     {
       "Name": [
+        "The Revolution Nepal"
+      ],
+      "Social": null,
+      "Logo": "/3p/TheRevolutionNepal/logo.png",
+      "Contact": [
+        "therevolutionnepal@gmail.com"
+      ],
+      "Description": "The Revolution  is a movement-based group dedicated to promoting social, political and economic transformation in Nepal through peaceful, democratic and inclusive means.\n\nOur mission is to inspire collective action, raise awareness and work toward equality, justice and sustainable development.\n\n#### Vision\n\nA just, empowered and progressive Nepal - united in diversity and driven by the spirit of transformation and strong belief on \"The Nation belongs to the Citizens\".\n\n#### Objectives\n\n- To mobilize citizens toward positive social and political reform.\n- To advocate for transparency, accountability and good governance.\n- To promote youth participation and leadership in national change.\n- To support environmental sustainability and equitable development.\n- To strengthen democracy, freedom of expression and human rights.\n\n\n#### Current Activities\n- Take Mandates to Ministry\n- ⁠Appeal to let NCS work Independently\n- ⁠Tie Up with Cyber Organization’s to protect Citizen’s data\n- ⁠Protect Protest Agendas",
+      "Focus": "Research, ⁠Unite the Voices, ⁠Secure Citizen’s Data, ⁠Field Analysis",
+      "Last Updated": null,
+      "Miscellaneous": null
+    },
+    {
+      "Name": [
         "Yuwa Hub (NYRG)"
       ],
       "Social": [
         "https://discord.gg/7atDsr3X2c",
         "https://www.instagram.com/yuwahub_"
       ],
-      "Logo": null,
+      "Logo": "/3p/YuwaHub/logo.png",
       "Contact": null,
-      "Description": "We stand against corruption  GenZ discord server where we promote freedom of speech. Current activities include Discord talkshows, Stage and Instagram posts \n",
+      "Description": "We stand against corruption. GenZ discord server where we promote freedom of speech. Current activities include Discord talkshows, Stage and Instagram posts.\n\n- [Slogans (September 8)](https://newnepal.org/3p/YuwaHub/slogans.pdf)\n- [Silent Protest Flyers (September 8)](https://newnepal.org/3p/YuwaHub/Gen-Z%20Movement_%20Silent%20Protest%20Against%20Corruption.pdf)",
       "Focus": null,
       "Last Updated": null,
       "Miscellaneous": null
@@ -310,9 +326,9 @@
     },
     {
       "Website": "https://speakupnepal.org",
-      "Logo": null,
+      "Logo": "https://speakupnepal.org/icon.svg?5479968bffa21e6b",
       "Contact": null,
-      "Description": null
+      "Description": "The platform for Nepal to express issues in their day to day life and see it change."
     },
     {
       "Website": "https://Jhappad.com",
