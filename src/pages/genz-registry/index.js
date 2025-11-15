@@ -44,13 +44,10 @@ export default function GenZRegistry() {
         <div className="row">
           <div className="col col--8 col--offset-2">
             <h1><Translate>GenZ Registry</Translate></h1>
-            <p><Translate>Discover GenZ teams and groups working towards positive change in Nepal.</Translate></p>
+            <p><Translate>Discover GenZ teams and groups working towards positive change in Nepal. This registry showcases youth-led organizations, advocacy groups, and digital platforms that are actively contributing to Nepal's development through civic engagement, social activism, and community building. We cover these initiatives to highlight the growing movement of young Nepalis who are taking ownership of their country's future, fostering transparency, and creating networks for collaboration and knowledge sharing among Nepal's next generation of leaders.</Translate></p>
+            <p><Translate>If you believe in the cause, please do consider volunteering to help update the Google sheets registry.</Translate></p>
             
-            <div className="margin-bottom--lg">
-              <Link className="button button--primary button--lg" to="/partner">
-                <Translate>Partner with Us</Translate>
-              </Link>
-            </div>
+
             
             <div className="alert alert--info margin-bottom--lg">
               <p><em><Translate>If your group isn't included or your info needs update, please</Translate> <Link to="/contact"><Translate>contact us</Translate></Link> (also see <a href={GENZ_REGISTRY_SHEET_WEB_URL} target="_blank" rel="noopener noreferrer"><Translate>source of truth</Translate></a>).</em></p>

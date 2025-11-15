@@ -6,7 +6,7 @@
  */
 
 :root {
-  --banner-red: rgb(84, 2, 2);
+  --banner-red: #c44569;
 }
 
 .heroBanner {
@@ -45,7 +45,7 @@
 }
 
 .banner {
-  background-color: var(--banner-red);
+  background-color: var(--nepal-red);
   padding: 10px;
   border-radius: 5px;
   position: relative;

@@ -10,11 +10,17 @@ export default function WeeklyDebates() {
         <div className="row">
           <div className="col col--8 col--offset-2">
             <h1><Translate>Weekly Debates</Translate></h1>
+            <div className="alert alert--info">
+              <h4><Translate>🤝 Call for Volunteers</Translate></h4>
+              <p><Translate>We are currently short staffed and can only organize GenZ Debate if we find a leader who can take this on. We need someone to step up and lead this important initiative for Nepal's youth.</Translate></p>
+            </div>
             
             <h2><Translate>Aim of the Debates</Translate></h2>
             <p><Translate>Our weekly debates aim to foster critical thinking and constructive dialogue on Nepal's future. We seek to engage Nepali youth in meaningful discussions about nation-building, governance, and the path forward for our country.</Translate></p>
             
-            <p><Link to="/debate/call-for-participation" className="button button--primary button--lg"><Translate>Join our Call for Participation</Translate></Link></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScTvdYqJmPdZ-maKu_b8bJzwr8N7gsFdticPbO5w6Hp9jJdGw/viewform" target="_blank" rel="noopener noreferrer" className="button button--primary button--lg"><Translate>Participate</Translate></a></p>
+            
+            <p><Link to="/debate/call-for-participation"><Translate>Join our Call for Participation</Translate></Link></p>
             
             <h2><Translate>Prospective Topics</Translate></h2>
             <ul>

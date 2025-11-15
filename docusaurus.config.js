@@ -60,6 +60,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://nes.newnepal.org',
+          label: 'NES',
+          position: 'left',
+        },
+        {
           to: 'mission/',
           activeBasePath: 'mission',
           label: 'Mission',
@@ -122,6 +127,10 @@ module.exports = {
             {
               label: 'Corruption Database',
               to: 'corruption',
+            },
+            {
+              label: 'Nepal Entity Service',
+              href: 'https://nes.newnepal.org',
             },
           ],
         },

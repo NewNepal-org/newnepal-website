@@ -10,31 +10,41 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <Translate>GenZ Registry</Translate>,
-    imageUrl: 'img/genz-registry-icon.svg',
+    imageUrl: 'img/registry-genz.png',
     description: <Translate>Discover GenZ teams and groups working towards positive change in Nepal.</Translate>,
     link: '/genz-registry'
   },
   {
     title: <Translate>Corruption Database</Translate>,
-    imageUrl: 'img/corruption-database-icon.svg',
+    imageUrl: 'img/corruption-db.png',
     description: <Translate>This will be a central case-by-case corruption database, and their statues.</Translate>,
     link: '/corruption',
     underConstruction: true
   },
   {
     title: <Translate>Weekly Debate</Translate>,
-    imageUrl: 'img/weekly-debates-icon.svg',
+    imageUrl: 'img/debate.png',
     description: <Translate>Participate in weekly discussions on important national issues and topics.</Translate>,
     link: '/debate',
     underConstruction: false
   },
+  {
+    title: <Translate>Nepal Entity Service</Translate>,
+    imageUrl: 'img/nes.png',
+    description: <Translate>Open Source, open data, and open API for Nepali public entities.</Translate>,
+    link: 'https://nes.newnepal.org',
+    external: true
+  },
 ];
 
-function Feature({imageUrl, title, description, link, underConstruction}) {
+function Feature({imageUrl, title, description, link, underConstruction, external}) {
   const imgUrl = useBaseUrl(imageUrl);
+  const LinkComponent = external ? 'a' : Link;
+  const linkProps = external ? { href: link, target: '_blank', rel: 'noopener noreferrer' } : { to: link };
+  
   return (
     <div className={clsx('col col--4', styles.feature)}>
-      <Link to={link} className="text--center" style={{textDecoration: 'none', color: 'inherit'}}>
+      <LinkComponent {...linkProps} className="text--center" style={{textDecoration: 'none', color: 'inherit'}}>
         {imgUrl && (
           <div className="text--center">
             <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -45,7 +55,7 @@ function Feature({imageUrl, title, description, link, underConstruction}) {
           {underConstruction && <span style={{marginLeft: '8px', fontSize: '12px', backgroundColor: '#ff9500', color: 'white', padding: '2px 6px', borderRadius: '3px'}}><Translate>Under Construction</Translate></span>}
         </h3>
         <p>{description}</p>
-      </Link>
+      </LinkComponent>
     </div>
   );
 }
